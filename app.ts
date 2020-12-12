@@ -4,6 +4,7 @@ import path = require('path');
 
 import routes from './routes/index';
 import users from './routes/user';
+import { MariaDB } from './server/db/maria-db';
 
 const app = express();
 
@@ -52,3 +53,6 @@ app.set('port', process.env.PORT || 3000);
 const server = app.listen(app.get('port'), function () {
     debug('Express server listening on port ' + server.address().port);
 });
+
+
+var mariaDB = new MariaDB();

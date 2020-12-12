@@ -1,6 +1,6 @@
 {
   "name": "db-wrap",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "private": false,
   "scripts": {
     "build": "tsc --build",
@@ -15,6 +15,7 @@
   "dependencies": {
     "debug": "^2.2.0",
     "express": "^4.14.0",
+    "mariadb": "^2.5.2",
     "pug": "^2.0.0-rc.3"
   },
   "devDependencies": {
@@ -31,16 +32,10 @@
     "url": "https://github.com/seonwifi/db-wrap.git"
   },
   "keywords": [
-
     "db-wrap"
-
   ],
-   
   "license": "MIT",
-
   "bugs": {
-
     "url": "https://github.com/seonwifi/db-wrap/issues"
-
   }
 }

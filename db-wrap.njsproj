@@ -42,12 +42,17 @@
     <Content Include="views\error.pug" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="server\" />
     <Folder Include="public\" />
     <Folder Include="public\images\" />
     <Folder Include="public\javascripts\" />
     <Folder Include="public\stylesheets\" />
     <Folder Include="routes\" />
+    <Folder Include="server\db\" />
     <Folder Include="views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="server\db\maria-db.ts" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>

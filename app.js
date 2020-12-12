@@ -5,6 +5,7 @@ const express = require("express");
 const path = require("path");
 const index_1 = require("./routes/index");
 const user_1 = require("./routes/user");
+const maria_db_1 = require("./server/db/maria-db");
 const app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -43,4 +44,5 @@ app.set('port', process.env.PORT || 3000);
 const server = app.listen(app.get('port'), function () {
     debug('Express server listening on port ' + server.address().port);
 });
+var mariaDB = new maria_db_1.MariaDB();
 //# sourceMappingURL=app.js.map
