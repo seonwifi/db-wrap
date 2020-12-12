@@ -1,7 +1,7 @@
 {
   "name": "db-wrap",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.0.1",
+  "private": false,
   "scripts": {
     "build": "tsc --build",
     "clean": "tsc --build --clean",
@@ -9,7 +9,7 @@
   },
   "description": "db-wrap",
   "author": {
-    "name": ""
+    "name": "sunjoo moon"
   },
   "main": "app.js",
   "dependencies": {
@@ -25,5 +25,22 @@
     "@types/serve-static": "^1.7.32",
     "@types/node": "^8.0.14",
     "typescript": "^3.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seonwifi/db-wrap.git"
+  },
+  "keywords": [
+
+    "db-wrap"
+
+  ],
+   
+  "license": "MIT",
+
+  "bugs": {
+
+    "url": "https://github.com/seonwifi/db-wrap/issues"
+
   }
 }
